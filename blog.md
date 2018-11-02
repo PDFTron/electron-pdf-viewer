@@ -1,6 +1,6 @@
 # How to build a desktop PDF viewer using Electron and PDF.js
 
-Electron is a platform that allows you to create cross platform desktop applications using web technology. This post will go over how to implement PDF.js into an Electron app to build your own desktop PDF viewer.
+[Electron](https://electronjs.org/) is an open-source framework that allows you to create cross platform desktop applications using web technology. This post will go over how to implement [PDF.js](https://mozilla.github.io/pdf.js/) into an Electron app to build your own desktop PDF viewer.
 
 ## 1. Download and Install Electron
 Electron provides a handy starter repo that contains all the boilerplate we need to get started. Get it by running:
@@ -22,7 +22,7 @@ npm start
 You should see a hello world app pop up on your desktop.
 
 
-## Set up project structure
+## Set Up Project Structure
 In order to keep things clean, lets clean up the boilerplate a bit. Create a folder called `src` and move `index.html` and `renderer.js` into it.
 
 Inside `main/js`, change this line:
@@ -52,7 +52,7 @@ You will also need to tell Electron where your static assets are. You can do thi
 }
 ```
 
-## Create the viewer
+## Create the Viewer
 Change the content of `src/index.html` to the following:
 
 ```html
