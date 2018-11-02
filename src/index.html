@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <script src='../public/WebViewer/lib/webviewer.min.js'></script>
     <link rel='stylesheet' href='./index.css'>
   </head>
   <body>
@@ -16,7 +17,8 @@
     </div>
 
     <script>
-      require('./renderer.js');
+      // require('./renderer.js'); // uncomment this and comment next line if you want to use pdf.js
+      require('./renderer-webviewer.js');
     </script>
   </body>
 </html>
