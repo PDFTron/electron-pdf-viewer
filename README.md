@@ -1,2 +1,3 @@
 # electron-pdf-viewer
-How to view a PDF with Electron
+
+Source code for [this article](https://www.pdftron.com/blog/electron/how-to-build-an-electron-pdf-viewer)
